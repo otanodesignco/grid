@@ -7,7 +7,7 @@ class Grid
 	private $template;
 	private $built;
 	
-	public function __construct( $tier, $positions, $template)
+	public function __construct( $tier, $positions, $template )
 	{
 		$this->tiers = $tier;
 		$this->cells = $positions;
