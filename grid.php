@@ -12,6 +12,7 @@ class Grid
 		$this->tiers = $tier;
 		$this->cells = $positions;
 		$this->template = $template;
+		$this->built = false;
 	}
 	
 	public function Tiers( $tiers )
